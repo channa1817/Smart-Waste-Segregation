@@ -1,0 +1,16 @@
+Model Name: classifyWaste.h5
+Architecture: VGG16 Transfer Learning
+Input Size: 224x224
+Classes:
+- batteries
+- clothes
+- e-waste
+- glass
+- light bulbs
+- metal
+- organic
+- paper
+- plastic
+
+Training Accuracy: ~70%
+Framework: TensorFlow / Keras
