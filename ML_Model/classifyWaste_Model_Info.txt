@@ -1,0 +1,27 @@
+Model Name: classifyWaste.h5
+
+Project: Smart Waste Segregation System
+
+Dataset Used: TrashNet Dataset
+
+Dataset Classes:
+- cardboard
+- glass
+- metal
+- paper
+- plastic
+- trash
+
+Training Images: 2024
+Validation Images: 503
+
+Model Architecture:
+- VGG16 Transfer Learning
+- Image Size: 224x224
+- Dense Layer: 128 neurons
+- Dropout: 0.5
+- Output Layer: Softmax (6 classes)
+
+Training Platform:
+- Google Colab
+- TensorFlow / Keras
